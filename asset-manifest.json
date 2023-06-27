@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portifolio/static/css/main.effb00d5.css",
-    "main.js": "/portifolio/static/js/main.fccdc7cf.js",
+    "main.js": "/portifolio/static/js/main.29b85a8a.js",
     "static/media/Enjoy-Spa.png": "/portifolio/static/media/Enjoy-Spa.4e760b46c9c698b41b06.png",
     "static/media/Atacadista-moveis.png": "/portifolio/static/media/Atacadista-moveis.c2084ddf9ea59c7af3b3.png",
     "static/media/Pedras-Venato.png": "/portifolio/static/media/Pedras-Venato.5e9b8cd9a1b2bff5dce0.png",
@@ -16,10 +16,10 @@
     "static/media/Block Friends.png": "/portifolio/static/media/Block Friends.c1235f034f7e96a341c7.png",
     "index.html": "/portifolio/index.html",
     "main.effb00d5.css.map": "/portifolio/static/css/main.effb00d5.css.map",
-    "main.fccdc7cf.js.map": "/portifolio/static/js/main.fccdc7cf.js.map"
+    "main.29b85a8a.js.map": "/portifolio/static/js/main.29b85a8a.js.map"
   },
   "entrypoints": [
     "static/css/main.effb00d5.css",
-    "static/js/main.fccdc7cf.js"
+    "static/js/main.29b85a8a.js"
   ]
 }
