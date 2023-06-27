@@ -21,6 +21,7 @@ function App() {
                 <Route path="/portifolio/sobre" element={<Sobre />}/>
                 <Route path="/portifolio/projetos" element={<Projetos />}/>
                 <Route path="/portifolio/contato" element={<Contato />}/> 
+                <Route path="*" element={<Home/>}/>
           </Routes>
           <NightModel/>
         </Container>
