@@ -1,0 +1,141 @@
+.Perfil-session{
+    height: 100%;
+    width: calc(25% - 10px);
+    margin: 0 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.Perfil-container{
+    width: 100%; 
+    height: calc(70% - 5px);
+    margin-bottom: 5px;
+    background: var(--fundo-blocos);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1% 20px;
+    align-items: center;
+    overflow: hidden;
+}
+.Perfil-container .foto-container{
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    height: 290px;
+    justify-content: center;
+}
+.Perfil-container .foto-container .back-color{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background: var(--gradient-effect);
+    border-radius: 15px;
+}
+.Perfil-container .foto-container img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.btn-container .btn{
+    background: var(--gradient-effect);
+    color: var(--text-contrast);
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+}
+.btn-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    position: relative;
+}
+.Perfil-container .Nome h2{
+    color: var(--text-color);
+    font-size: 20px;
+    text-align: center;
+}
+.Perfil-container .Nome p{
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 1300px){
+    .Perfil-container .foto-container{
+        width: 100%;
+        border-radius: 15px;
+        display: flex;
+        height: 200px;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .Perfil-container .foto-container{
+        width: 100%;
+        border-radius: 15px;
+        display: flex;
+        height: 170px;
+        justify-content: center;
+    }
+    .Perfil-container .Nome h2{
+        color: var(--text-color);
+        font-size: 17px;
+        text-align: center;
+    }
+    .Perfil-container .Nome p{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width:700px){
+    .Perfil-session{
+        width: calc(100% - 10px)!important;
+        margin: 5px;
+    }
+    .Perfil-container .foto-container{
+        width: 85%;
+        height: 300px;
+    }
+
+    .Perfil-session{
+        height: 80vh;
+    }
+}
+@media only screen and (max-width:450px){
+    .Perfil-container .foto-container{
+        width: 60%;
+        height: 200px;
+    }
+}
+@media only screen and (max-width:350px){
+    .Perfil-container .foto-container{
+        width: 80%;
+        height: 200px;
+    }
+}
+@media only screen and (max-width:300px){
+    .Perfil-container .foto-container{
+        width: 80%;
+        height: 150px;
+    }
+}
+@media only screen and (max-width:280px){
+    .Perfil-container .foto-container{
+        width: 80%;
+        height: 150px;
+    }
+}
+
+
+
