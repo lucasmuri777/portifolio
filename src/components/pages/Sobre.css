@@ -71,11 +71,11 @@
   }
   @media only screen and (max-width: 400px){
     .Sobre-container p{
-        font-size: 13px;
-        line-height: 15px;
+        font-size: 12px;
+        line-height: 14px;
     }
     .Sobre-container h1{
-        font-size: 23px;
+        font-size: 21px;
     }
   }
   @media only screen and (max-width: 300px){
