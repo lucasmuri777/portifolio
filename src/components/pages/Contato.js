@@ -13,7 +13,7 @@ export default function Contato(){
 
                 <ul>
                     <li>
-                        <a href="https://web.whatsapp.com/send?phone=5511971870680&text=Olá, Tudo bem? Vi seu portifólio e fiquei curisoso a respeito de você! Podemos conversar?" target="_blank">
+                        <a href="https://api.whatsapp.com/send?phone=5511971870680&text=Olá, Tudo bem? Vi seu portifólio e fiquei curisoso a respeito de você! Podemos conversar?" target="_blank">
                             <div className="icon">
                                 <BsFillTelephoneFill/>
                             </div>
