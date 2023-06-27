@@ -17,10 +17,10 @@ function App() {
       <Container>
         <Header/>
           <Routes>
-                <Route path="/" element={<Home />}/>
-                <Route path="/sobre" element={<Sobre />}/>
-                <Route path="/projetos" element={<Projetos />}/>
-                <Route path="/contato" element={<Contato />}/> 
+                <Route path="/portifolio/" element={<Home />}/>
+                <Route path="/portifolio/sobre" element={<Sobre />}/>
+                <Route path="/portifolio/projetos" element={<Projetos />}/>
+                <Route path="/portifolio/contato" element={<Contato />}/> 
           </Routes>
           <NightModel/>
         </Container>

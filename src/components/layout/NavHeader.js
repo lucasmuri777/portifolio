@@ -34,22 +34,22 @@ export default function NavHeader({phone, estilo, mobile}){
                 <Foto phone={estilo}/>
                 <ul className='nav'>
                 <li>
-                    <Link to='/' className='active'>
+                    <Link to='/portifolio/' className='active'>
                         <BsFillHouseFill/> {phone === false && mobile === false && <>Home</>}
                     </Link>
                 </li>
                 <li>
-                    <Link to='/sobre'>
+                    <Link to='/portifolio/sobre'>
                         <BsFillPersonFill/> {phone === false && mobile === false && <>Sobre</>}
                     </Link>
                 </li>
                 <li>
-                    <Link to='/projetos'>
+                    <Link to='/portifolio/projetos'>
                         <BsCpuFill/> {phone === false && mobile === false && <>Projetos</>}
                     </Link>
                 </li>
                 <li>
-                    <Link to='/contato'>
+                    <Link to='/portifolio/contato'>
                         <BsChatRightTextFill/>  {phone === false && mobile === false && <>Contato</>}
                     </Link>
                 </li>
