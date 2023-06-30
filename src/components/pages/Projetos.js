@@ -101,7 +101,8 @@ export default function Projetos(){
                             Titulo="Tetris" 
                             descricao="Jogo clássico de tetris. (EM DESENVOLVIMENTO)"
                             tecnologias={[<DiHtml5/>, <DiCss3/>, <DiJavascript/>, <DiReact/>]}
-                            linkAlert='EM DESENVOLVIMENTO'
+                            linkRepo="https://github.com/lucasmuri777/tetris-react"
+                            linkDominio="https://lucasmuri777.github.io/tetris-react/"
                         />
                     </motion.div>   
                 </motion.div>
