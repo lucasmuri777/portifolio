@@ -11,6 +11,7 @@ import financasFoto from '../../images/App de despesasa.png'
 import GeradordeideiasFoto from '../../images/Gerador de ideias.png'
 import paintFoto from '../../images/Paint.png'
 import PokedexFoto from '../../images/Pokedex.png'
+import CloneBlaze from '../../images/CloneBlaze.png'
 
 export default function Carousel(){
     const [projetos, setProjetos] = useState([])
@@ -38,6 +39,14 @@ export default function Carousel(){
                         }}
                         
                     >
+                        <CarouselSingle 
+                            foto={CloneBlaze}
+                            Titulo="Clone da Blaze" 
+                            descricao="Clone fictício de um site de apostas (Só para teste de minhas habilidades)"
+                            tecnologias={[<DiHtml5/>, <DiCss3/>, <DiJavascript/>, <DiReact/>]}
+                            linkRepo="https://github.com/lucasmuri777/Blaze-clone-Mines"
+                            linkDominio="https://lucasmuri777.github.io/Blaze-clone-Mines/"
+                        />
 
                         <CarouselSingle 
                             foto={financasFoto}
@@ -70,6 +79,7 @@ export default function Carousel(){
                             linkRepo="https://github.com/lucasmuri777/pokemon"
                             linkDominio="https://lucasmuri777.github.io/pokemon/"
                         />
+                       
                     </motion.div>   
                 </motion.div>
         </>

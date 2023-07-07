@@ -21,6 +21,7 @@ import PedrasVenato from '../../images/Pedras-Venato.png'
 import EnjoySpa from '../../images/Enjoy-Spa.png'
 import AtacadistaMoveis from '../../images/Atacadista-moveis.png'
 import PersonalTechCar from '../../images/Personal-tech-car.png'
+import CloneBlaze from '../../images/CloneBlaze.png'
 
 
 import { motion } from 'framer-motion'
@@ -116,7 +117,14 @@ export default function Projetos(){
                         }}
                         
                     >
-                        
+                        <CarouselSingle 
+                            foto={CloneBlaze}
+                            Titulo="Clone da Blaze" 
+                            descricao="Clone fictício de um site de apostas (Só para teste de minhas habilidades)"
+                            tecnologias={[<DiHtml5/>, <DiCss3/>, <DiJavascript/>, <DiReact/>]}
+                            linkRepo="https://github.com/lucasmuri777/Blaze-clone-Mines"
+                            linkDominio="https://lucasmuri777.github.io/Blaze-clone-Mines/"
+                        />
                         <CarouselSingle 
                             foto={PersonalTechCar}
                             Titulo="Personal Tech Car" 
