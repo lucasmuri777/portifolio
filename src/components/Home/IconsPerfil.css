@@ -26,6 +26,9 @@
     font-size: 50px;
     cursor: pointer;
 }
+.typescript svg{
+    font-size: 36px!important;
+}
 .icons-container-perfil ul li{
     width: 33%;
     display: flex;
@@ -37,9 +40,14 @@
     transform: scale(1.3);
     position: relative;
 }
-
+@media only screen and (max-width:450px){
+    .icons-container-perfil{
+        height: auto;
+        min-height: 231px;
+    }
+}
 @media only screen and (max-width:280px){
     .icons-container-perfil{
-        height: 200px;
+        height: auto;
     }
 }

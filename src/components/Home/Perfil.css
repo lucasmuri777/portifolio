@@ -117,6 +117,14 @@
         width: 60%;
         height: 200px;
     }
+    .Perfil-session{
+        height: 90vh;
+    }
+}
+@media only screen and (max-width:400px){
+    .Perfil-session{
+        height: 100vh;
+    }
 }
 @media only screen and (max-width:350px){
     .Perfil-container .foto-container{

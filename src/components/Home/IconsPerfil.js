@@ -1,4 +1,7 @@
 import { DiJavascript, DiReact, DiHtml5, DiCss3, DiBootstrap, DiGit } from "react-icons/di";
+import {SiTypescript, SiStyledcomponents} from 'react-icons/si'
+import {TbBrandNextjs} from 'react-icons/tb'
+
 
 import styles from './IconsPerfil.css'
 import { useEffect, useState } from "react";
@@ -46,6 +49,15 @@ export default function IconsPerfil(){
                             </li>
                             <li className='github'>
                                 <DiGit/>
+                            </li>
+                            <li className='next'>
+                                <TbBrandNextjs/>
+                            </li>
+                            <li className='styled-components'>
+                                <SiStyledcomponents/>
+                            </li>
+                            <li className='typescript'>
+                                <SiTypescript/>
                             </li>
                         </ul>
                     )}

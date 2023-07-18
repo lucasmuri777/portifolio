@@ -21,7 +21,7 @@ export default function Home(){
                     <div className="description">
                         <h3>Um pouco sobre mim</h3>
                         <p>Sou um programador front-end com dois anos de experiência, especializado no desenvolvimento de sites. 
-                            Tenho habilidades em HTML, CSS e JavaScript, além de conhecimento em React.js e Node.js. Também tenho 
+                            Tenho habilidades em HTML, CSS, JavaScript, Typescript, React, Next.js, Firebase, Node.js Também tenho 
                             experiência em trabalhar com Wordpress. Sempre atualizado com as últimas tendências, busco oportunidades 
                             para contribuir com projetos inovadores.
                         </p>

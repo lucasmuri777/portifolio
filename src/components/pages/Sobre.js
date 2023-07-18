@@ -12,7 +12,7 @@ export default function Sobre(){
                         <h1>Programador <span className="gradient-font">Front-End</span></h1>
                         <p>
                             E aí! Sou um programador front-end especializado em criar experiências web incríveis e responsivas. 
-                            Minhas habilidades abrangem uma variedade de tecnologias, como <strong>HTML5, CSS3, Bootstrap, JavaScript, React.js, Adobe Photoshop e WordPress.</strong>
+                            Minhas habilidades abrangem uma variedade de tecnologias, como <strong>HTML5, CSS3, Bootstrap, JavaScript, Typescript, React.js, Next.js, Node.js, Firebasem, Adobe Photoshop e WordPress.</strong>
                         </p>
                         <p>
                             Com foco no desenvolvimento front-end, eu adoro transformar designs em código funcional e com um visual super legal. Sou ninja em HTML5 e CSS3, 

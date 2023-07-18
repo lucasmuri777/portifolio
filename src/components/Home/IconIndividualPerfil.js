@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import { DiJavascript, DiReact, DiHtml5, DiCss3, DiBootstrap, DiGit } from "react-icons/di";
+import {SiTypescript, SiStyledcomponents} from 'react-icons/si'
+import {TbBrandNextjs} from 'react-icons/tb'
 
 import styles from './IconIndividual.css'
 
@@ -32,7 +34,7 @@ export default function IconIndividualPerfil({close, tec}){
                 {tec === 'react' && (
                     <p>
                         <DiReact/>
-                        React.js é um framework de Javascript.
+                        React.js é uma biblioteca de Javascript.
                     </p>
                     )}
                 {tec === 'bootstrap' && (
@@ -45,6 +47,24 @@ export default function IconIndividualPerfil({close, tec}){
                     <p>
                         <DiGit/>
                         Github é uma plataforma de hospedagem de código.
+                    </p>
+                    )}
+                    {tec === 'next' && (
+                    <p>
+                        <TbBrandNextjs/>
+                        É um Framework de JavaScript.
+                    </p>
+                    )}
+                    {tec === 'styled-components' && (
+                    <p>
+                        <SiStyledcomponents/>
+                        É uma biblioteca que possibilita escrever códigos CSS dentro do JavaScript. 
+                    </p>
+                    )}
+                    {tec === 'typescript' && (
+                    <p>
+                        <SiTypescript/>
+                        Linguagem de programação baseada em JavaScript adicionando Tipagens ao código.
                     </p>
                     )}
             </div>
