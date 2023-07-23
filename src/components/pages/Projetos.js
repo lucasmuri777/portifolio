@@ -4,8 +4,9 @@ import { useEffect, useState, useRef } from "react"
 
 import Box from "../layout/Box";
 
-import { DiJavascript, DiReact, DiHtml5, DiCss3, DiBootstrap, DiGit, DiWordpress, DiPhp } from "react-icons/di";
-
+import { DiJavascript, DiReact, DiHtml5, DiCss3, DiBootstrap, DiGit, DiWordpress, DiPhp, DiFirebase } from "react-icons/di";
+import {SiTypescript, SiStyledcomponents, SiFirebase} from 'react-icons/si'
+import {TbBrandFirebase, TbBrandNextjs, TbBrandTypescript} from 'react-icons/tb'
 import styles from "./Projetos.css"
 
 
@@ -22,7 +23,9 @@ import EnjoySpa from '../../images/Enjoy-Spa.png'
 import AtacadistaMoveis from '../../images/Atacadista-moveis.png'
 import PersonalTechCar from '../../images/Personal-tech-car.png'
 import CloneBlaze from '../../images/CloneBlaze.png'
-
+import ChatOnlineImage from '../../images/ChatOnlineImage.png'
+import tarefasOnlineImage from '../../images/TarefasImage.png'
+import scrapBookOnlineImage from '../../images/ScrapBookOnline.png'
 
 import { motion } from 'framer-motion'
 
@@ -58,6 +61,20 @@ export default function Projetos(){
                         }}
                         
                     >
+                         <CarouselSingle 
+                            foto={scrapBookOnlineImage}
+                            Titulo="ScrapBook Online" 
+                            descricao="Rede social de scrapbook... Crie seu scrapBook com seu amigo!"
+                            tecnologias={[<TbBrandFirebase/>, <SiStyledcomponents/>, <TbBrandTypescript/>, <TbBrandNextjs/>]}
+                            linkDominio="https://scrap-book.vercel.app"
+                        />
+                         <CarouselSingle 
+                            foto={tarefasOnlineImage}
+                            Titulo="Tarefas Onlines" 
+                            descricao="Sistema de cadastro de tarefas online."
+                            tecnologias={[<TbBrandFirebase/>, <SiStyledcomponents/>, <TbBrandTypescript/>, <TbBrandNextjs/>]}
+                            linkRepo="https://github.com/lucasmuri777/Tarefas-NextJs"
+                        />
                         
                         <CarouselSingle 
                             foto={financasFoto}
@@ -117,6 +134,13 @@ export default function Projetos(){
                         }}
                         
                     >
+                        <CarouselSingle 
+                            foto={ChatOnlineImage}
+                            Titulo="Chat Online" 
+                            descricao="Chat online com login com google provider."
+                            tecnologias={[<TbBrandFirebase/>, <SiStyledcomponents/>, <TbBrandTypescript/>, <TbBrandNextjs/>]}
+                            linkRepo="https://github.com/lucasmuri777/ChatRealTime-NextJs"
+                        />
                         <CarouselSingle 
                             foto={CloneBlaze}
                             Titulo="Clone da Blaze" 
