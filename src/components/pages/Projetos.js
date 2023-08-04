@@ -5,7 +5,7 @@ import { useEffect, useState, useRef } from "react"
 import Box from "../layout/Box";
 
 import { DiJavascript, DiReact, DiHtml5, DiCss3, DiBootstrap, DiGit, DiWordpress, DiPhp, DiFirebase } from "react-icons/di";
-import {SiTypescript, SiStyledcomponents, SiFirebase} from 'react-icons/si'
+import {SiTypescript, SiStyledcomponents, SiFirebase, SiTailwindcss} from 'react-icons/si'
 import {TbBrandFirebase, TbBrandNextjs, TbBrandTypescript} from 'react-icons/tb'
 import styles from "./Projetos.css"
 
@@ -26,6 +26,9 @@ import CloneBlaze from '../../images/CloneBlaze.png'
 import ChatOnlineImage from '../../images/ChatOnlineImage.png'
 import tarefasOnlineImage from '../../images/TarefasImage.png'
 import scrapBookOnlineImage from '../../images/ScrapBookOnline.png'
+
+import relogioImage from '../../images/FotoRelogio.png'
+import quizImage from '../../images/FotoQuiz.png'
 
 import { motion } from 'framer-motion'
 
@@ -75,6 +78,14 @@ export default function Projetos(){
                             tecnologias={[<TbBrandFirebase/>, <SiStyledcomponents/>, <TbBrandTypescript/>, <TbBrandNextjs/>]}
                             linkRepo="https://github.com/lucasmuri777/Tarefas-NextJs"
                         />
+                          <CarouselSingle 
+                            foto={Tetris}
+                            Titulo="Tetris" 
+                            descricao="Jogo clássico de tetris. (EM DESENVOLVIMENTO)"
+                            tecnologias={[<DiHtml5/>, <DiCss3/>, <DiJavascript/>, <DiReact/>]}
+                            linkRepo="https://github.com/lucasmuri777/tetris-react"
+                            linkDominio="https://lucasmuri777.github.io/tetris-react/"
+                        />
                         
                         <CarouselSingle 
                             foto={financasFoto}
@@ -84,6 +95,17 @@ export default function Projetos(){
                             linkRepo="https://github.com/lucasmuri777/Financas-App"
                             linkDominio="https://lucasmuri777.github.io/Financas-App/"
                         />
+                       
+                        
+                        <CarouselSingle 
+                            foto={relogioImage}
+                            Titulo="Relógio" 
+                            descricao="Relógio automático com variações de texto."
+                            tecnologias={[<TbBrandTypescript/>, <TbBrandNextjs/>, <SiTailwindcss/>, <DiReact/>]}
+                            linkRepo="https://github.com/lucasmuri777/Relogio-Nextjs"
+                            linkDominio="https://relogio-nextjs.vercel.app"
+                        />
+                       
                         <CarouselSingle 
                             foto={GeradordeideiasFoto}
                             Titulo="Gerador de ideias (GPT Ai)" 
@@ -114,14 +136,7 @@ export default function Projetos(){
                             tecnologias={[<DiHtml5/>, <DiCss3/>, <DiJavascript/>, <DiReact/>]}
                             linkAlert='EM DESENVOLVIMENTO'
                         />
-                        <CarouselSingle 
-                            foto={Tetris}
-                            Titulo="Tetris" 
-                            descricao="Jogo clássico de tetris. (EM DESENVOLVIMENTO)"
-                            tecnologias={[<DiHtml5/>, <DiCss3/>, <DiJavascript/>, <DiReact/>]}
-                            linkRepo="https://github.com/lucasmuri777/tetris-react"
-                            linkDominio="https://lucasmuri777.github.io/tetris-react/"
-                        />
+                      
                     </motion.div>   
                 </motion.div>
                 <motion.div ref={carousel2} className="carousel" whileTap={{cursor: "grabbing"}}> 
@@ -149,6 +164,14 @@ export default function Projetos(){
                             linkRepo="https://github.com/lucasmuri777/Blaze-clone-Mines"
                             linkDominio="https://lucasmuri777.github.io/Blaze-clone-Mines/"
                         />
+                         <CarouselSingle 
+                            foto={quizImage}
+                           Titulo="Quiz de Programação" 
+                            descricao="Quiz básico de programação."
+                            tecnologias={[<TbBrandTypescript/>, <TbBrandNextjs/>, <SiTailwindcss/>, <DiReact/>]}
+                            linkRepo="https://github.com/lucasmuri777/Quiz-Programacao"
+                            linkDominio="https://quiz-programacao-mu.vercel.app"
+                        /> 
                         <CarouselSingle 
                             foto={PersonalTechCar}
                             Titulo="Personal Tech Car" 

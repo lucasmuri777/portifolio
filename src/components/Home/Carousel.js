@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { useEffect, useState, useRef } from "react"
 
 import { DiJavascript, DiReact, DiHtml5, DiCss3, DiBootstrap, DiGit } from "react-icons/di";
-import {SiTypescript, SiStyledcomponents, SiFirebase} from 'react-icons/si'
+import {SiTypescript, SiStyledcomponents, SiFirebase, SiTailwindcss} from 'react-icons/si'
 import {TbBrandFirebase, TbBrandNextjs, TbBrandTypescript} from 'react-icons/tb'
 import styles from './Carousel.css'
 import CarouselSingle from './CarouselSingle';
@@ -16,6 +16,8 @@ import CloneBlaze from '../../images/CloneBlaze.png'
 import ChatOnlineImage from '../../images/ChatOnlineImage.png'
 import tarefasOnlineImage from '../../images/TarefasImage.png'
 import scrapBookOnlineImage from '../../images/ScrapBookOnline.png'
+import relogioImage from '../../images/FotoRelogio.png'
+import quizImage from '../../images/FotoQuiz.png'
 
 export default function Carousel(){
     const [projetos, setProjetos] = useState([])
@@ -64,6 +66,7 @@ export default function Carousel(){
                             tecnologias={[<TbBrandFirebase/>, <SiStyledcomponents/>, <TbBrandTypescript/>, <TbBrandNextjs/>]}
                             linkRepo="https://github.com/lucasmuri777/ChatRealTime-NextJs"
                         />
+
                         <CarouselSingle 
                             foto={CloneBlaze}
                             Titulo="Clone da Blaze" 
@@ -72,6 +75,25 @@ export default function Carousel(){
                             linkRepo="https://github.com/lucasmuri777/Blaze-clone-Mines"
                             linkDominio="https://lucasmuri777.github.io/Blaze-clone-Mines/"
                         />
+
+                        <CarouselSingle 
+                            foto={quizImage}
+                            Titulo="Quiz de Programação" 
+                            descricao="Quiz básico de programação."
+                            tecnologias={[<TbBrandTypescript/>, <TbBrandNextjs/>, <SiTailwindcss/>, <DiReact/>]}
+                            linkRepo="https://github.com/lucasmuri777/Quiz-Programacao"
+                            linkDominio="https://quiz-programacao-mu.vercel.app"
+                        />
+                        
+                        <CarouselSingle 
+                            foto={relogioImage}
+                            Titulo="Relógio" 
+                            descricao="Relógio automático com variações de texto."
+                            tecnologias={[<TbBrandTypescript/>, <TbBrandNextjs/>, <SiTailwindcss/>, <DiReact/>]}
+                            linkRepo="https://github.com/lucasmuri777/Relogio-Nextjs"
+                            linkDominio="https://relogio-nextjs.vercel.app"
+                        />
+                       
 
                         <CarouselSingle 
                             foto={financasFoto}
@@ -88,22 +110,7 @@ export default function Carousel(){
                             tecnologias={[<DiHtml5/>, <DiCss3/>, <DiJavascript/>, <DiBootstrap/>]}
                             linkRepo="https://github.com/lucasmuri777/Gerador-de-ideias-javasript-puro"
                         />
-                        <CarouselSingle 
-                            foto={paintFoto}
-                            Titulo="Paint" 
-                            descricao="Página estilo Paint para você fazer suas artes online."
-                            tecnologias={[<DiHtml5/>, <DiCss3/>, <DiJavascript/>, <DiBootstrap/>]}
-                            linkRepo="https://github.com/lucasmuri777/App-Desenho"
-                            linkDominio="https://lucasmuri777.github.io/App-Desenho/"
-                        />
-                        <CarouselSingle 
-                            foto={PokedexFoto}
-                            Titulo="Pokedex" 
-                            descricao="Página de listagem de pokemons com requisições a API."
-                            tecnologias={[<DiHtml5/>, <DiCss3/>, <DiJavascript/>, <DiBootstrap/>]}
-                            linkRepo="https://github.com/lucasmuri777/pokemon"
-                            linkDominio="https://lucasmuri777.github.io/pokemon/"
-                        />
+                        
                        
                     </motion.div>   
                 </motion.div>
