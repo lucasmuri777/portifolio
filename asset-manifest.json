@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portifolio/static/css/main.0b248d02.css",
-    "main.js": "/portifolio/static/js/main.9a8716ef.js",
+    "main.js": "/portifolio/static/js/main.292abfc4.js",
     "static/media/Enjoy-Spa.png": "/portifolio/static/media/Enjoy-Spa.4e760b46c9c698b41b06.png",
     "static/media/Atacadista-moveis.png": "/portifolio/static/media/Atacadista-moveis.c2084ddf9ea59c7af3b3.png",
     "static/media/Pedras-Venato.png": "/portifolio/static/media/Pedras-Venato.5e9b8cd9a1b2bff5dce0.png",
     "static/media/Personal-tech-car.png": "/portifolio/static/media/Personal-tech-car.8e8b0563ee0b3bbc4376.png",
     "static/media/Progframation.png": "/portifolio/static/media/Progframation.a6660292a4ebb44f0b76.png",
     "static/media/Curriculo-Lucas-Muriano.pdf": "/portifolio/static/media/Curriculo-Lucas-Muriano.a07a6d5de72a8e2e7739.pdf",
+    "static/media/FotoRelogio.png": "/portifolio/static/media/FotoRelogio.0da9b613001c91166884.png",
     "static/media/FotoEu.jpeg": "/portifolio/static/media/FotoEu.6065535bac173bd8af10.jpeg",
     "static/media/Pokedex.png": "/portifolio/static/media/Pokedex.728e38980031b98bbf08.png",
     "static/media/Tetris.png": "/portifolio/static/media/Tetris.cadf84f1826bb69d0e42.png",
@@ -18,13 +19,14 @@
     "static/media/TarefasImage.png": "/portifolio/static/media/TarefasImage.93f8e271079585641422.png",
     "static/media/Paint.png": "/portifolio/static/media/Paint.b1009cbe67bf48c88f2b.png",
     "static/media/Gerador de ideias.png": "/portifolio/static/media/Gerador de ideias.284277f510ce356d8d2a.png",
+    "static/media/FotoQuiz.png": "/portifolio/static/media/FotoQuiz.19f9c9894e9531fdacd3.png",
     "static/media/Block Friends.png": "/portifolio/static/media/Block Friends.c1235f034f7e96a341c7.png",
     "index.html": "/portifolio/index.html",
     "main.0b248d02.css.map": "/portifolio/static/css/main.0b248d02.css.map",
-    "main.9a8716ef.js.map": "/portifolio/static/js/main.9a8716ef.js.map"
+    "main.292abfc4.js.map": "/portifolio/static/js/main.292abfc4.js.map"
   },
   "entrypoints": [
     "static/css/main.0b248d02.css",
-    "static/js/main.9a8716ef.js"
+    "static/js/main.292abfc4.js"
   ]
 }
