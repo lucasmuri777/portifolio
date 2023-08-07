@@ -27,6 +27,8 @@ import ChatOnlineImage from '../../images/ChatOnlineImage.png'
 import tarefasOnlineImage from '../../images/TarefasImage.png'
 import scrapBookOnlineImage from '../../images/ScrapBookOnline.png'
 
+import ToDoListImage from '../../images/To-do-list.png'
+
 import relogioImage from '../../images/FotoRelogio.png'
 import quizImage from '../../images/FotoQuiz.png'
 
@@ -86,6 +88,15 @@ export default function Projetos(){
                             linkRepo="https://github.com/lucasmuri777/tetris-react"
                             linkDominio="https://lucasmuri777.github.io/tetris-react/"
                         />
+
+                        <CarouselSingle 
+                            foto={ToDoListImage}
+                            Titulo="To Do List" 
+                            descricao="To Do List usando reducers do React.js e tailwind."
+                            tecnologias={[<TbBrandTypescript/>, <TbBrandNextjs/>, <SiTailwindcss/>, <DiReact/>]}
+                            linkRepo="https://github.com/lucasmuri777/To-do-List-Reducers"
+                            linkDominio="https://to-do-list-reducers.vercel.app"
+                        />
                         
                         <CarouselSingle 
                             foto={financasFoto}
@@ -105,6 +116,7 @@ export default function Projetos(){
                             linkRepo="https://github.com/lucasmuri777/Relogio-Nextjs"
                             linkDominio="https://relogio-nextjs.vercel.app"
                         />
+
                        
                         <CarouselSingle 
                             foto={GeradordeideiasFoto}
